@@ -4,7 +4,7 @@ from unidecode import unidecode
 
 # Função para conectar ao banco de dados
 def conectar_bd():
-    return mysql.connector.connect
+    return mysql.connector.connect(host= ----, user= -----, password= ---- , database= ----) #Conecta ao servidor e banco de dados, motivo de segurança está incompleto
 
 # Função para cadastrar um novo trabalhador
 def cadastrar_trabalhador(idCPF, email, nome, bairro, servico, contato, senha):
